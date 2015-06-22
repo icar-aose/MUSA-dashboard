@@ -1,0 +1,76 @@
+{
+	"genericElement":false,
+	"rules":[
+	    
+		{
+		"errorConnection":["01","02"],
+		"description":"Incompatible Task Connected"
+		}
+	
+	],
+   "task":[
+        {
+            "typeId":"01",
+            "name":"MY FIRST TASK ",
+            "iconClass":"iconTask2",
+            "exitCodes": ["Rifiutato","Accettato","Incompatibile"]
+             
+        },
+        {
+            "typeId":"02",
+            "name":"MY SECOND TASK",
+            "iconClass":"iconTask2"
+           
+        }
+    ],
+    
+    
+     "gateway":[
+        
+        {
+            "typeId":"G2",
+            "name":" MY GATEWAY",
+            "iconClass":"iconTask2"
+        
+            
+        }
+    ],
+    
+     "event":[
+        {
+            "typeId":"E1",
+            "name":" MY EVENT",
+            "iconClass":"iconTask2"
+          
+            
+        }
+    ],
+    
+     "dataObject":[
+        {
+            "typeId":"D1",
+            "name":" MY DATA OBJECT ",
+            "iconClass":"iconTask2"
+            
+        }
+    ],
+    
+     "message":[
+        {
+            "typeId":"M1",
+            "name":" MY MESSAGE OUTPUT",
+            "iconClass":"iconTask2",
+            "url":"prova2.html",
+            "messageType":1
+            
+        },
+        {
+            "typeId":"M2",
+            "name":"MY MESSAGE INPUT",
+            "iconClass":"iconTask2",
+            "url":"prova.html",
+            "messageType":2
+            
+        }
+    ]
+}
