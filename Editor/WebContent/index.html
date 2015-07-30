@@ -39,7 +39,7 @@
 <h1>WORKFLOW WEB EDITOR</h1>
 </div>
 <div id="toolbar-container">
-<img src="img/menuIcon/document-new.png" onclick="window.location.reload()"/>
+<img src="img/menuIcon/document-new.png" onclick="window.location.reload()" title="New WorkFlow"/>
 
 <!-- <img src="img/newFile.jpg" onclick="window.location.reload()"/> -->
 
@@ -48,33 +48,34 @@
 <!--         <img src="img/load.jpg"/> -->
 <!--     </label> -->
  <label for="file_input" >
-        <img src="img/menuIcon/document-open.png"/>
+        <img src="img/menuIcon/document-open.png" title="Open Diagramm"/>
     </label>
    <input id="file_input" type="file" onchange="loadDiagramm()"/>
    <!--     <img src="img/salva.jpg" onclick="saveDiagramm()"/> -->
- <img src="img/menuIcon/document-save.png" onclick="saveDiagramm()"/>
+ <img src="img/menuIcon/document-save.png" onclick="saveDiagramm()" title="Save Diagramm"/>
     <label for="file_palette" >
 <!--         <img src="img/loadPalette.jpg"/> -->
- <img src="img/menuIcon/loadPalette.png"/>
+ <img src="img/menuIcon/loadPalette.png" title="Load  New Palette"/>
     </label>
-   <input id="file_palette" type="file" onchange="evento_loadJSONPalette()" title="LOAD NEW PALETTE"/>
+   <input id="file_palette" type="file" onchange="evento_loadJSONPalette()" title="LOAD NEW PALETTE" />
   
 </div>
 <!-- <img src="img/validate.png" onclick="checkDiagramm()"/> -->
-<img src="img/menuIcon/checkDiagram.png" onclick="checkDiagramm()"/>
+<img src="img/menuIcon/checkDiagram.png" onclick="checkDiagramm()" title="Validate Diagramm"/>
 
-<img src="img/menuIcon/document-export.png" onclick="exportXMINewId()"/>
-<img src="img/menuIcon/document-exportSgma.png" onclick="generateXMItoJSON()"/> 
-<img src="img/menuIcon/bottom.png" onclick="parseSVBRInfo()"/> 
+<img src="img/menuIcon/document-export.png" onclick="exportXMINewId()" title="Export Diagramm"/>
+<img src="img/menuIcon/document-exportSgma.png" onclick="generateXMItoJSON()" title="Parse Sigma Diagramm"/> 
+<img src="img/menuIcon/bottom.png" onclick="parseSVBRInfo()" title="Parse  SBVR info to Diagramm"/> 
 <!-- <img src="img/exportXMI.jpg" onclick="exportXMINewId()"/> -->
 <!-- <img src="img/xmlGenerate.png" onclick="generateXMItoJSON()"/>  -->
-
-<img src="img/menuIcon/wfExecutionMonitor.png" onclick="followWF()"/> 
+<img src="img/menuIcon/injectGoals.png" onclick="injectGoals()" title="Inject Goals"/> 
+<img src="img/menuIcon/wfExecutionMonitor.png" id="followWFSubmit" onclick="alert('Iniect goals first')" title="Follow Execution"/> 
+<!-- <img src="img/menuIcon/wfExecutionMonitor.png" onclick="stopfollowWF()"/>  -->
 <!-- <img src="img/followWorkFlow.png" onclick="followWF()"/>  -->
 <!-- <img src="img/undo.jpg" class="undo-button" /> -->
 <!-- <img src="img/reundo.jpg" class="redo-button"/> -->
-<img src="img/menuIcon/edit-undo.png" class="undo-button" />
-<img src="img/menuIcon/edit-redo.png" class="redo-button"/>
+<img src="img/menuIcon/edit-undo.png" class="undo-button" title="Undo" />
+<img src="img/menuIcon/edit-redo.png" class="redo-button" title="Redo"/>
 <button id="create-item">ITEMS</button>
 <input id="fileName" type="text" value="diagram-example"/>
 </div>   

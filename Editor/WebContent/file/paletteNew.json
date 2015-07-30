@@ -10,18 +10,57 @@
 	],
    "task":[
         {
-            "typeId":"01",
-            "name":"MY FIRST TASK ",
-            "iconClass":"iconTask2",
-            "exitCodes": ["Rifiutato","Accettato","Incompatibile"]
+            "typeId":"1",
+            "name":"Inserimento Ordine",
+            "iconClass":"iconTask2"
+           
              
         },
         {
-            "typeId":"02",
-            "name":"MY SECOND TASK",
+            "typeId":"2",
+            "name":"Inserimento Dati Utente",
+            "iconClass":"iconTask2"
+           
+        },
+        {
+            "typeId":"3",
+            "name":"Preparazione Consegna",
+            "iconClass":"iconTask2"
+           
+        },
+        {
+            "typeId":"5",
+            "name":"Emissione Fattura",
+            "iconClass":"iconTask2"
+           
+        },
+        
+         {
+            "typeId":"8",
+            "name":"Upload Fattura",
+            "iconClass":"iconTask2"
+           
+        },
+        
+        {
+            "typeId":"9",
+            "name":"Evasione Ordine",
+            "iconClass":"iconTask2"
+           
+        },
+        {
+            "typeId":"11",
+            "name":"Notifica Utente",
+            "iconClass":"iconTask2"
+        },
+        {
+            "typeId":"12",
+            "name":"Sospensione",
             "iconClass":"iconTask2"
            
         }
+        
+        
     ],
     
     

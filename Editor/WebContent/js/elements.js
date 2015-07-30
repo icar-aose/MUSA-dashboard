@@ -798,6 +798,13 @@ joint.shapes.basic.Event = joint.dia.Element.extend({
 		    	  case 'reference':
 			        	cell.attr('image/xlink:href', 'img/icon/referenceIcon.jpg');
 			            break;
+			            
+		    	  case 'successExecution':
+			        	cell.attr('image/xlink:href', 'img/icon/success.png');
+			            break;
+		    	  case 'failedExecution':
+			        	cell.attr('image/xlink:href', 'img/icon/failed.png');
+			            break;
 		        }
 		    },
 		});
